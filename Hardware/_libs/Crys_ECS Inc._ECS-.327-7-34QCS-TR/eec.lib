@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ECS Inc. ECS-.327-7-34QCS-TR
+#
+DEF ECS-.327-7-34QCS-TR Y 0 40 Y Y 1 L N
+F0 "Y" 0 200 50 H V L CNN 
+F1 "ECS-.327-7-34QCS-TR" 0 300 50 H V L CNN 
+F2 "ECS_Inc.-ECX-34Q-0-0-*" 0 400 50 H I L CNN 
+F3 "https://ecsxtal.com/store/pdf/ECX-34Q.pdf" 0 500 50 H I L CNN 
+F4 "Yes" 0 600 50 H I L CNN "automotive"
+F5 "Grade 1" 0 700 50 H I L CNN "automotive grade"
+F6 "Crys" 0 800 50 H I L CNN "category"
+F7 "Passive Components" 0 900 50 H I L CNN "device class L1"
+F8 "Crystals / Oscillators" 0 1000 50 H I L CNN "device class L2"
+F9 "Crystals" 0 1100 50 H I L CNN "device class L3"
+F10 "CRYSTAL 32.768KHZ 7PF SMD" 0 1200 50 H I L CNN "digikey description"
+F11 "XC2161CT-ND" 0 1300 50 H I L CNN "digikey part number"
+F12 "70kΩ" 0 1400 50 H I L CNN "esr"
+F13 "32.768kHz" 0 1500 50 H I L CNN "frequency"
+F14 "0.9mm" 0 1600 50 H I L CNN "height"
+F15 "Yes" 0 1700 50 H I L CNN "lead free"
+F16 "7fafef16ff32e362" 0 1800 50 H I L CNN "library id"
+F17 "7pF" 0 1900 50 H I L CNN "load capacitance"
+F18 "ECS Inc." 0 2000 50 H I L CNN "manufacturer"
+F19 "520-.327-7-34QCST" 0 2100 50 H I L CNN "mouser part number"
+F20 "SMD2" 0 2200 50 H I L CNN "package"
+F21 "Yes" 0 2300 50 H I L CNN "rohs"
+F22 "ECX-34Q" 0 2400 50 H I L CNN "series"
+F23 "+125°C" 0 2500 50 H I L CNN "temperature range high"
+F24 "-40°C" 0 2600 50 H I L CNN "temperature range low"
+F25 "10ppm" 0 2700 50 H I L CNN "tolerance"
+DRAW
+X In/Out 1 0 0 50 R 40 0 1 1 P 
+X Out/In 2 300 0 50 L 40 0 1 1 P 
+P 2 1 1 0 50 80 50 -80 N
+P 2 1 1 0 250 80 250 -80 N
+P 2 1 1 0 100 100 100 -100 N
+P 2 1 1 0 100 100 200 100 N
+P 2 1 1 0 200 100 200 -100 N
+P 2 1 1 0 200 -100 100 -100 N
+ENDDRAW
+ENDDEF
+#
+# End Library
